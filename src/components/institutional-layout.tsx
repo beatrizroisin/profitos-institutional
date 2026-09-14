@@ -105,7 +105,7 @@ export function InstitutionalLayout({
   );
 }
 
-function MetaItem({ label, value }: { label: string; value?: string }) {
+function MetaItem({ label, value }: { label: string; value?: string | undefined }) {
   return (
     <div className="bg-surface/60 px-4 py-4">
       <dt className="font-mono text-[10px] uppercase tracking-[0.18em] text-muted-foreground">
